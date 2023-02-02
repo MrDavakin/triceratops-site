@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>table</title>
+<style type="text/css">
+	table{
+		border: double 2px red;
+		width: 50%;
+		border-collapse: collapse;
+	}
+	th,td{
+		border: solid 1px red;
+		width: 25%;
+		height: 0.7cm;
+	}
+	tr:nth-child(even){
+		background-color: lightgrey;
+	}
+	tr:hover{
+		background-color: orange;
+	}
+	td:hover{
+		background: linear-gradient(green,yellow,red);
+		font-size: 2em;
+		color: maroon;
+		text-align: center;
+		text-transform: uppercase;
+	}
+</style>
+</head>
+<body>
+<p style="background-color: black; color: red; font-size: 50px;">Mи вивчаємо таблиці</p>
+<table>
+	<caption>ТаблиціHTML</caption>
+	<thead>
+		<tr>
+		<th>Kолір</th>
+		<th>Hаіменуваня</th>
+		<th>HEX</th>
+		<th>RGB</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td style="background-color: #000"></td>
+		<td>Black</td>
+		<td>#000000</td>
+		<td>(0,0,0)</td>	
+	</tr>
+</tbody>
+   <tr>
+	<td style="background-color: #f00"></td>
+		<td>Red</td>
+		<td>#ff0000</td>
+		<td>(255,0,0)</td>	
+	</tr>
+	<tbody>
+	<tr>
+		<td style="background-color: #0f0"></td>
+		<td>Lime</td>
+		<td>#00ff00</td>
+		<td>(0,255,0)</td>	
+	</tr>
+</tbody>
+<tbody>
+	<tr>
+		<td style="background-color: #00f"></td>
+		<td>Blue</td>
+		<td>#0000ff</td>
+		<td>(0,0,255)</td>	
+	</tr>
+</tbody>
+<tbody>
+	<tr>
+		<td style="background-color: #0ff"></td>
+		<td>Aqua</td>
+		<td>#00ffff</td>
+		<td>(0,255,)</td>	
+	</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="background-color: #000"></td>
+<td>Black</td>
+<td>#000000</td>
+<td>(0,0,0)</td>	
+</tr>
+</tbody>
+<tr>
+<td style="background-color: #f00"></td>
+<td>Red</td>
+<td>#f00000</td>
+<td>(255,0,0)</td>	
+</tr>
+<tbody>
+<tr>
+<td style="background-color: #0f0"></td>
+<td>Lime</td>
+<td>#00ff00</td>
+<td>(0,0,0)</td>	
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="background-color: #00f"></td>
+<td>Blue</td>
+<td>#0000ff</td>
+<td>(0,0,0)</td>	
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="background-color: #0ff"></td>
+<td>Aqua</td>
+<td>#00ffff</td>
+<td>(0,0,0)</td>	
+</tr>
+</tbody>
+</table>
+</tbody>
+</body>
+</html>

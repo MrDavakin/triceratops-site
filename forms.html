@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>forms</title>
+	<style type="text/css">
+		p{
+			font-size: 50px;
+			text-shadow: 2px 2px 5px red;
+			background: linear-gradient(45deg,violet,yellow,aqua);
+
+		}
+		#n{
+			font-size:30px;
+			background: linear-gradient(45deg,orange,pink,red);
+			text-align: center;
+			width: 150px;
+		}
+		#b{
+			font-size:30px;
+			background: linear-gradient(45deg,darkgreen,darkviolet,darkred);
+			
+
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо форми</p>
+<form name="form1">
+    login <input id="n" type="text" name="login" size="20" maxlength="50" value="Admin">
+    password <input id="n" type="password" name="login" size="20" maxlength="50" value="1234">
+    information <input id="n" type="text" name="information" size="20" maxlength="50" value="information" readonly>
+    <br>
+    Виберіть мову
+     <input type="checkbox" name="lan1" size="20" maxlength="50" value="English" >English
+     <input type="checkbox" name="lan1" size="20" maxlength="50" value="frach">frach
+     <input type="checkbox" name="lan1" size="20" maxlength="50" value="Spanish">Spanish
+     <input type="checkbox" name="lan1" size="20" maxlength="50" value="Korean">Korean
+     <br>
+     <br>
+     Вкажіть статі
+    <input type="radio" name="gender" value="male">Чоловіча
+    <input type="radio" name="gender" value="female">Жіноча
+    <input type="radio" name="gender" value="other">Інше
+    <br>
+    <input type="submit" name="submit" value="Відправити">
+    <input type="image" name="image" src="button.jpg">
+    <input type="reset" name="reset" value="Очистити" >
+    <input type="button" name="button" value="cklic">
+    <input type="file" name="download" value="заватжити">
+    <br>
+    <textarea cols="25" rows="3" wrap="off">
+    	
+    </textarea>
+    <br>
+    <textarea cols="35" rows="5" wrap="virtual">
+    	
+    </textarea>
+    <br>
+    <textarea cols="50" rows="10" wrap="physical">
+    	
+    </textarea>
+    <br>
+    Яку мову ви бажаєте вивчати?
+    <select name="longuage" size="1">
+         <option value="English">English</option>
+         <option value="frach">frach</option>
+         <option value="Spanish">Spanish</option>
+         <option value="Korean" selected="">Korean</option>	
+    </select>
+    <br>
+    Скільки часу можете приділити на заняття на тиждень?
+    <select name="time" size="4">
+    	<option value="1" selected="">1</option>
+    	<option value="3">3</option>
+    	<option value="5">5</option>
+    	<option value="7">7</option>
+    </select>
+    <br>
+    <br>
+    <p id="b">Оберіть дні. Якщо обираєте декіалька днів, то утримайте при виборі кнопку Ctrl</p>
+    <select name="day" size="7" multiple>
+    	<option value="Monday">Monday</option>
+    	<option value="Tuesday">Tuesday</option>
+    	<option value="Wensday">Wensday</option>
+    	<option value="Thursday">Thursday</option>
+    	<option value="Friday">Friday</option>
+    	<option value="Saturday">Saturday</option>
+    	<option value="Sunday">Sunday</option>
+    </select>
+</form>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>saite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="free-icon-security-4707040.png">
+
+	<style type="text/css">
+   		*{
+			margin:;
+		}
+		header{
+			height: 150px;
+			background-color:#193C40;
+			color:black;
+		}
+		h1{
+			text-align: center;
+			padding-top: 50px;
+		}
+		#menu{
+			width:20%; 
+			height:1900px;
+			background-color:  #2E5902;
+			float: left;
+		}
+		#content{
+			width: 80%;
+			height: 1900px;
+			background-color: #214001;
+			float: left;
+		}
+		h2{
+			text-align: center;
+			font-weight: 700;
+			color:#D96941;
+		}
+		footer{
+			height: 200px;
+			background-color: #A62B1F;
+			clear: both;
+		}
+
+
+		/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(0,255,0);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left:20px;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+#imege1{
+
+	width: 30%;
+	border-radius: 30%;
+	box-shadow: 10px 10px 50px grey;
+	margin: 109px;
+}
+#tri{
+color:#ffbd63; 
+font-size: 30px;
+margin: 20px;
+height: 80%;
+line-height: 46px;
+}
+#try{
+
+color:#ffbd63; 
+font-size: 30px;
+line-height: 46px;
+ font-family: 'Roboto Mono', monospace;
+ margin: 40px;
+}
+p{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+	</style>
+</head>
+<body>
+<header><h1  style="color: darkred" >Сайт Панди</h1></header>
+<div id="menu"><h2>Menu</h2>
+<a href="table.html" target="_blank"><button class="button-85" role="button">table</button></a>
+<a href="run.html" target="_blank"><button class="button-85" role="button">run</button></a>
+<a href="list.html" target="_blank"><button class="button-85" role="button">list</button></a>
+<a href="text.html" target="_blank"><button class="button-85" role="button">text</button></a>
+<a href="blocks.html" target="_blank"><button class="button-85" role="button">blocks</button></a>
+<a href="forms.html" target="_blank"><button class="button-85" role="button">forms</button></a>
+<a href="cycles.html" target="_blank"><button class="button-85" role="button">cycles</button></a>
+
+
+</div>
+<div id="content"><h2> Про трицератопса </h2>
+<iframe width="520" height="350" src="https://www.youtube.com/embed/cLQcz0XuGGg" title="ВСЁ О ДИНОЗАВРАХ: ТРИЦЕРАТОПС" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><a href="https://uk.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D1%86%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D0%BF%D1%81"> <img  id="imege1"  src="https://faunistics.com/wp-content/uploads/2021/10/1-12.jpg"alt="Triceratops"></a>
+<ol id="try">
+ <li>Зріст: 2,9 – 3 м</li>
+ <li>Маса: 6 000 – 12 000 кг</li>
+ <li>Научна назва: Triceratops  </li>
+ <li>Довжина: 7,9 – 9 м</li>
+ <li>Швидкість: 32 км/ч (Maximum)</li>
+ <li>Період зникнення скам'янілостей: Маастрихтський ярус</li>
+ <li>Вища класифікація: Triceratopsini</li>
+</ol>
+<br>
+ <p id="tri">Трицера́топс (Triceratops) — рід викопних травоїдних динозаврів з групи рогатих динозаврів (Ceratopsia). Жили в кінці періоду пізньої крейди (67-65 мільйонів років тому) в Північній Америці. Довжина трицератопсів досягала 9 м, маса динозавра становила до 12 тонн. Це були найбільші та одні з найпізніших цератопсів. Рід містить два види: Triceratops horridus і Triceratops prorsus.Загальна будова
+Трицератопси були великими тваринами, що пересувалися на чотирьох ногах. Досягали завдовжки від 7,9 до 9 м, і 2,9-3 м заввишки[1][2]. Маса складала 6,1-12 тонн[3]. Велика голова мала три роги: один короткий над ротом і два довгих над кожним оком. За рогами містився виступ у вигляді коміра, що прикривав шию згори[4].
+
+Будова шкіри трицератопса відома за скам'янілим зразком з Вайомінгу, хоча офіційно він не був висвітлений у науковій літературі. Шкіру покривали шестикутні вузлики завширшки близько 5–6 см, а також більші, близько 10 см горбки з конічними виступами[5]. Якщо треба більше інформації натисніть на картинку.</p> 
+
+  
+</div>
+<footer><h2>Контакти Автора</h2><p style="color:#ffbd63;font-size: 34px; text-align: center; ">timofijpazuk@gmail.com</p></footer>
+
+</body>
+</html>
